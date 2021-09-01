@@ -1,0 +1,60 @@
+
+head, main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button {
+    margin-top: 120px;
+    width: 80px;
+}
+
+#lampada {
+    width: 300px;
+    
+}
+
+#turnOn {
+background-color: rgb(32, 204, 32);
+border: none;
+padding: 10px;
+border-radius: 15px;
+border-bottom: 5px solid rgb(15, 85, 32);
+}
+
+
+#turnOn:hover {
+
+ cursor: pointer;
+}
+
+#turnOn:active {
+position: relative;
+top: 5px;
+    background-color:  rgb(11, 63, 24);
+   border: none
+
+}
+
+#off {
+border: none;
+background-color: grey;
+padding: 10px;
+margin: 5px;
+border-radius: 15px;
+border-bottom: 5px solid rgb(56, 56, 56);
+}
+
+#off:hover {
+
+cursor: pointer;
+}
+#off:active {
+background-color: rgb(78, 78, 78);
+position: relative;
+top: 5px;
+border: none;
+}
